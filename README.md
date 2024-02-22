@@ -17,7 +17,7 @@ Site published at: https://liliiavint.github.io/calculator_OOP/
 
 Design:
 [Example-1](https://dribbble.com/shots/11265171-Daily-UI-4-Calculatormode=media),
-[Example-2](https://dribbble.com/shots/14801877-Calculator-UI)
+[Example-2]https://www.figma.com/file/qeNBoSD3GM45sHtpESs3l2/Calculator-UI-Design-(Community)?type=design&node-id=1-2&mode=design&t=lGJSNWfeEQhxR0ME-0
 
 ## 🎯 Project features/goals
 
