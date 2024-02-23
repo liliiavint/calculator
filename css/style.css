@@ -9,26 +9,33 @@ body * {
     width: 320px;
     margin: calc(50% - 200px);
     height: 415px;
-    border: 4px solid;
+    border: 4px solid #78007A;
     border-radius: 35px;
-    border-color: #78007A;
     background-color: #FFB2FF;
     
 }
 .operation{
-    margin-top: 90px;
-    margin-left: 150px;
-    height: 30px;
+    
+    width: 95%;
+    height: 30.55%;
+    margin: 15px auto 10px auto;
+    
 }
-.result{
-    margin-left: 150px;
-    height: 30px;
-    background-color: #78007A;
+#result
+#digit{
+    display: block;
+    width: 93%;
+    height: 40px;
+    line-height: 40px;
+    margin: 55px auto;
+    text-align: right;
+    padding: 1px 0;
+   
 }
 .fon{
+    
     border-radius: 35px;
     background-color:white;
-    margin-top: 0;
     box-shadow: -2px -12px 12px -6px rgba(120,0,122,0.75);
 -webkit-box-shadow: -2px -12px 12px -6px rgba(120,0,122,0.75);
 -moz-box-shadow: -2px -12px 12px -6px rgba(120,0,122,0.75);
@@ -38,6 +45,7 @@ body * {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
+    
      
 }
 .btn{
@@ -56,6 +64,7 @@ body * {
     border-bottom-left-radius: 35px;
 }
 .span{
+    
     margin-bottom: -2px;
     margin-right: -1px;
     grid-row: span 2;
