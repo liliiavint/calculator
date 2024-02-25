@@ -6,7 +6,7 @@ body * {
     box-sizing: border-box;
 }
 .calculator{
-    width: 320px;
+    width: 290px;
     margin: calc(50% - 200px);
     height: 415px;
     border: 4px solid #78007A;
@@ -30,7 +30,7 @@ body * {
     margin: 55px auto;
     text-align: right;
     padding: 1px 0;
-   
+    color: black;
 }
 .fon{
     
