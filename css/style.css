@@ -65,8 +65,8 @@ body * {
 }
 .span{
     
-    margin-bottom: -2px;
-    margin-right: -1px;
+    margin-bottom: -2.2px;
+    margin-right: -1.2px;
     grid-row: span 2;
     background-color: #78007A;
     border-bottom-right-radius: 35px;
