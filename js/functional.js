@@ -1,11 +1,35 @@
-
+import { calculator } from "../js/data.js";
 
 class Calculator {
-    constructor(data) {
-        
+    constructor(a, b, operation) {
+        this.a = a;
+        this.b = b;
+        this.operation = operation;
+      
+        this.calculator = calculator;
     }
 
-}
+    
+      
+        vykdomas() {
+            switch (this.operation) {
+              case 'add':
+                return this.a + this.b;
+              case 'sub':
+                return this.a - this.b;
+              case 'mul':
+                return this.a * this.b;
+              case 'div':
+                return this.a / this.b;
+              default:
+                return 'Error! No operation selected.';
+            }
+        }
+    }
+    
+
+
+
 export { Calculator };
 
 
