@@ -3,7 +3,7 @@ const calculator = {
     styledata: 'textcolor span btnhover' 
 };
 
-const connectDOM = document.querySelector(".mygtukai");
+const connectDOM = document.querySelector('.mygtukai');
 
 function selectTextcolor(item) {
     
@@ -23,3 +23,22 @@ for (const item of calculator.data) {
     HTML += `<button class="btn ${selectTextcolor(item)}">${item}</button>`;
 }
 connectDOM.innerHTML = HTML
+
+
+const mygtukaiDOM = connectDOM.querySelectorAll('.btn');
+
+for (let i = 0; i < calculator.data.length; i++) {
+    
+    function pressMygtukaiDOM (event) {
+        event.preventDefault();
+        const digitDOM = document.getElementById('digit');
+        digitDOM.innerText += calculator.data[i];
+    }
+    mygtukaiDOM[i].addEventListener('click', pressMygtukaiDOM);
+    
+   
+}
+
+
+  
+
