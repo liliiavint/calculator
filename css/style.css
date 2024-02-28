@@ -15,22 +15,41 @@ body * {
     
 }
 .operation{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    justify-content: space-around;
+    height:29%;
     
-    width: 95%;
-    height: 30.55%;
-    margin: 15px auto 10px auto;
     
 }
-#result
-#digit{
-    display: block;
+
+.digit{
+    display: flex;
     width: 93%;
-    height: 40px;
-    line-height: 40px;
-    margin: 55px auto;
-    text-align: right;
+    height: 50px;
+    justify-content: right;
+    line-height: 60px;
     padding: 1px 0;
     color: black;
+    font-family:'Comfortaa', serif;
+    font-size: 30px;
+    font-weight: 900;
+    text-wrap: wrap;
+
+}
+.result{
+    display: flex;
+    width: 93%;
+    height: 60px;
+    justify-content: right;
+    line-height: 60px;
+    
+    color: black;
+    font-family:'Comfortaa', serif;
+    font-size: 40px;
+    font-weight: bolder;
+
 }
 .fon{
     
