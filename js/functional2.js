@@ -27,17 +27,24 @@ connectDOM.innerHTML = HTML
 
 const mygtukaiDOM = connectDOM.querySelectorAll('.btn');
 
+
 for (let i = 0; i < calculator.data.length; i++) {
-    
     function pressMygtukaiDOM (event) {
         event.preventDefault();
         const digitDOM = document.getElementById('digit');
-        digitDOM.innerText += calculator.data[i];
+        if(calculator.data[i] === 'clear'){
+            return digitDOM.innerText = digitDOM.innerText.slice(100);
+        }
+        if(calculator.data[i] ==='ce'){
+            return digitDOM.innerText = digitDOM.innerText.slice(0, -1);
+        }else{
+         digitDOM.innerText += calculator.data[i];
     }
+    }    
     mygtukaiDOM[i].addEventListener('click', pressMygtukaiDOM);
-    
    
 }
+
 
 
   
