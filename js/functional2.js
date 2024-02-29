@@ -29,7 +29,7 @@ const mygtukaiDOM = connectDOM.querySelectorAll('.btn');
 
 
 const shortText = () => {
-    const maxLength = 16;
+    const maxLength = 14;
     const digitDOM = document.getElementById('digit');
     let text = digitDOM.innerText;
     let maxLengthText = maxLength - text.length;
